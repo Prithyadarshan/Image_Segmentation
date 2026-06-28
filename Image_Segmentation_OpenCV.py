@@ -8,7 +8,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 # reading image as input
-image= cv2.imread('rose.jpg') # reading image as input
+image= cv2.imread('/content/Rose.jpg') # reading image as input
 
 #If image is not uploaded properly
 if image is None:
